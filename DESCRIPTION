@@ -82,6 +82,7 @@ VignetteBuilder:
 Remotes:
     rstudio/htmltools,
     rstudio/shinytest
+    cderv/knitr@feature/register-opts_chunk
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

@@ -17,4 +17,11 @@
     packageEvent("shinytest", "onLoad"),
     function(...) register_shinytest_inputprocessor()
   )
+
+  # set option
+  local({
+    opts <- list(solution = "logical", exercice = "logical")
+    knitr:::register_options(opts)
+  })
+
 }
